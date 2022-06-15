@@ -127,6 +127,9 @@ a:hover {
   }
   .cover {
     padding: 8rem 1.5rem 0rem 1.5rem;
+  } 
+  .margin{
+    margin-top: 0rem;
   }
 }
 
@@ -149,6 +152,9 @@ a:hover {
   }
   .margin-top{
     margin-top: 2rem;
+  }
+  .margin{
+    margin-top: 4rem;
   }
 }
 
