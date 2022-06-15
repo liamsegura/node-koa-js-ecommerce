@@ -125,6 +125,9 @@ a:hover {
   .nav-masthead {
     float: right;
   }
+  .cover {
+    padding: 10rem 1.5rem 0rem 1.5rem;
+  }
 }
 
 @media (max-width: 48em) {
@@ -141,14 +144,15 @@ a:hover {
   h1{
     font-size: 3rem;
   }
+  .cover {
+    padding: 2rem 1.5rem 0rem 1.5rem;
+  }
 }
 
 /*
  * Cover
  */
-.cover {
-  padding: 2rem 1.5rem 0rem 1.5rem;
-}
+
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700;
