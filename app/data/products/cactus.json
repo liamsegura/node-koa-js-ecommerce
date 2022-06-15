@@ -1,0 +1,8 @@
+{
+    "id" : "cactus",
+    "name" : "CACTUSJACK",
+    "description" : "Anything but childs play.",
+    "weight" : 330,
+    "price" : 911,
+    "image" : "/images/cactus.png"
+}
