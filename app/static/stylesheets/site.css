@@ -55,6 +55,17 @@ p{
   max-width: 40rem;
   margin: 0 auto;
 }
+
+button{
+  background-color: #000000;
+  color: white;
+}
+
+button:hover{
+  background-color: white;
+  color: black;
+}
+
 .card{
   border: none!important;
 }
