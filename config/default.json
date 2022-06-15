@@ -1,0 +1,25 @@
+{
+    "server": {
+        "port": 3000
+    },
+    "views": {
+        "path": "app/views",
+        "options": {
+            "map": {
+                "pug": "pug"
+            },
+            "extension": "pug"
+        }
+    },
+    "static":{
+        "path":"app/static"
+    },
+    "data": {
+        "path": "app/data"
+    },
+    "settings": {
+        "siteName": "it's lit",
+        "snipcartApiKey": "YTMwYzAxYjYtZjY1Yy00ZThjLTg2MDktYjBjMjliNTFlN2MyNjM3OTA4MzI3MjkyNjI3NTM5",
+        "defaultDonation" : 25
+    }
+}

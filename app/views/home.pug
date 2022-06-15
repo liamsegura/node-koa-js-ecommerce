@@ -1,0 +1,24 @@
+extends _layout
+block content
+    .container.mt-5
+      .row
+        each product in model.products
+          .col-md
+            .card
+              .card-body
+                a(href=`/buy/${product._slug}`)
+                  img.mt-5.mb-5.w-100(
+                      src=product.image, 
+                      alt=product.name
+                    )
+                  h3.card-title= product.name
+                  p
+                    span.badge.badge-success £#{product.price}
+                //- a.btn.btn-dark.border.border-secondary(href=`/buy/${product._slug}`) More details
+                     
+      section.container.mb-5
+                     
+        p.lead.mb-5
+                     
+      a.btn.btn-sm.btn-secondary.wave(href="/donate") Donate
+              

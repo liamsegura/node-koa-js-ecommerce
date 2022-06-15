@@ -1,0 +1,23 @@
+extends _layout
+block content
+  .container.mt-5
+    .row.justify-content-md-center.mb-3
+      .col.col-lg-6
+        img.mt-5.mb-5.w-100(
+          src=model.product.image, 
+          alt=model.product.name
+        )
+    .row.justify-content-md-center.mb-5.pb-5
+      .col.col-lg-12
+        h2.cover-heading=model.title
+        p.pb-4=model.product.description
+        div
+          h5.mb-4 £#{model.product.price}
+        button.btn.btn-sm.btn-secondary.mb-5.snipcart-add-item(
+          data-item-id=model.product.id
+          data-item-name=model.product.name
+          data-item-url=urlWithoutQuery
+          data-item-price=model.product.price
+          data-item-description=model.product.description
+          data-item-image=model.product.image
+        ) Add to cart      

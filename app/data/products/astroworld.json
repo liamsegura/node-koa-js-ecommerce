@@ -1,0 +1,9 @@
+{
+    "id" : "wish",
+    "name" : "'ASTROWORLD'01",
+    "weight" : 1600,
+    "description" : "Wish you were here.",
+    "price" : 1699,
+    "image" : "/images/wish.png"
+    
+}
